@@ -15,6 +15,8 @@
 		726E787E20FBC44400478CF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E787C20FBC44400478CF5 /* LaunchScreen.storyboard */; };
 		726E788920FBC44400478CF5 /* Concentrate___samTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E788820FBC44400478CF5 /* Concentrate___samTests.swift */; };
 		726E789420FBC44400478CF5 /* Concentrate___samUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E789320FBC44400478CF5 /* Concentrate___samUITests.swift */; };
+		726E78A220FBC51A00478CF5 /* concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E78A120FBC51A00478CF5 /* concentration.swift */; };
+		726E78A420FBC54C00478CF5 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E78A320FBC54C00478CF5 /* card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		726E788F20FBC44400478CF5 /* Concentrate---samUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concentrate---samUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		726E789320FBC44400478CF5 /* Concentrate___samUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concentrate___samUITests.swift"; sourceTree = "<group>"; };
 		726E789520FBC44400478CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726E78A120FBC51A00478CF5 /* concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentration.swift; sourceTree = "<group>"; };
+		726E78A320FBC54C00478CF5 /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				726E787C20FBC44400478CF5 /* LaunchScreen.storyboard */,
 				726E787F20FBC44400478CF5 /* Info.plist */,
 				726E787720FBC44200478CF5 /* Concentrate___sam.xcdatamodeld */,
+				726E78A120FBC51A00478CF5 /* concentration.swift */,
+				726E78A320FBC54C00478CF5 /* card.swift */,
 			);
 			path = "Concentrate---sam";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				726E787920FBC44200478CF5 /* Concentrate___sam.xcdatamodeld in Sources */,
+				726E78A220FBC51A00478CF5 /* concentration.swift in Sources */,
 				726E787320FBC44200478CF5 /* ViewController.swift in Sources */,
+				726E78A420FBC54C00478CF5 /* card.swift in Sources */,
 				726E787120FBC44200478CF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
