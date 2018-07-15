@@ -24,9 +24,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
-        print("In touchCard sender is : \(sender)")
         if let cardNumber = cardButtons.index(of: sender) {
-            print("In touchCard cardNumber is : \(cardNumber)")
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
         } else {
@@ -55,21 +53,10 @@ class ViewController: UIViewController {
     var emoji = [Int:String]()
     
     private func emoji(for card:Card) -> String {
-        print ("card.identifier \(card.identifier)")
-        print ("emoji[card.identifier] \(emoji[card.identifier])")
         if emoji[card.identifier] == nil, emojiChoices.count  > 0 {
-            print("emoji[card.identifier] == nil")
             let randomIndex = Int(arc4random_uniform(UInt32(emojiChoices.count)))
-            print("randomIndex = \(randomIndex)")
-            print(UInt32(emojiChoices.count))
             emoji[card.identifier] = emojiChoices.remove(at: randomIndex)
         }
-        else {
-            print("emoji[card.identifier] != nil")
-        }
-        print ("emoji[card.identifier] \(emoji[card.identifier])")
         return emoji[card.identifier] ?? "?"
     }
-
 }
-
