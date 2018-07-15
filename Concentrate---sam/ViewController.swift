@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     
     var emoji = [Int:String]()
     
-    func emoji(for card:Card) -> String {
+    private func emoji(for card:Card) -> String {
         print ("card.identifier \(card.identifier)")
         print ("emoji[card.identifier] \(emoji[card.identifier])")
         if emoji[card.identifier] == nil, emojiChoices.count  > 0 {
